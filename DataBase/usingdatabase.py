@@ -24,7 +24,7 @@ btn = sidebar.button("Save Data")
 if btn:
     try:
         myphone = SmartPhone(brand=brand_v, name=name_v,
-                             price=price_v, ram=ram_v, storage=storage_v)
+                            price=price_v, ram=ram_v, storage=storage_v)
 
         session.add(myphone)
         session.commit()
